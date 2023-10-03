@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: var(--ffu);
+}
+:root{
+    --p_color:#0f2f44;
+    --s_color:#fff;
+    --th_color:#e0eeff;
+    --fth_color:#8484bf;
+    --hover_color:#fff9e6;
+    --ffu:'Ubuntu', sans-serif; 
+    --ffa:'Abril Fatface', 'cursive';
+}
+.container{
+    width: 100%;
+}
+.top{
+    
+    width: auto;
+    
+    background-color:var(--p_color);
+    color:var(--s_color);
+}
+.p_top{
+    padding-top: 10px;
+    padding-left:  30px;
+    padding-right: 30px;
+}
+
+.navbar .navbar-brand{
+    padding-left: 25px ;
+}
+
+.navbar-brand.logo img {
+    max-height: 40px;
+    padding-left: 65px;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-nav{
+    padding-right: 130px;
+}
+li{
+    padding-left: 15px;
+    color: var(--p_color);
+    margin:30px 0px;
+}
+
+.navbar-brand{
+    height: 40px;
+    margin-left: 100px;
+}
+header{
+    background-image: url("bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+  }
+  .hdr{
+    padding: 170px 0 0 188px;
+    
+    
+  }
+  .hdr h1{
+    font-size: 60pt;
+    color: var(--p_color);
+    font-family: var(--ffa);
+  }
+  .hdr h3{
+    font-size: 25pt;
+    line-height:1.2pt;
+    color: var(--p_color);
+  }
+  .hdr h5{
+  color: var(--fth_color);
+  letter-spacing: 10px;
+  }
+  .hdr a{
+    padding: 10px 30px 15px 30px;
+    background-color: var(--fth_color);
+    text-decoration: none;
+    color: var(--s_color);
+    border-radius: 10px;
+  }
+
+  .play-button {
+    margin-top: -10px;
+    margin-left: 164px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; 
+    background-color: var(--s_color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    /* :( */
+  }
+img{
+    padding-left: 5px;
+}
+
+  .pos{
+    position: absolute;
+  }
+
+ 
+  .navbar-nav .nav-item .nav-link {
+    color: var(--p_color); 
+    font-weight: 700;
+  }
+
+  
+  .navbar-nav .nav-item .nav-link.active {
+    color: var(--p_color);
+     font-weight: 700;
+  }
+.btnt{
+    width: 40px;
+    height: 40px;
+    border-radius: 50% !important;
+    background-color: var(--s_color);
+    border: 1px solid;
+}
+.btnt{
+    text-decoration: none;
+}
